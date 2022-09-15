@@ -4255,3 +4255,8 @@ INSERT INTO book (title,publisher_id,author_id) VALUES ('Zoo poétique (le)', '2
 INSERT INTO book (title,publisher_id,author_id) VALUES ('Zou', '84', '282');
 INSERT INTO book (title,publisher_id,author_id) VALUES ('Zou n\'a pas peur', '84', '282');
 INSERT INTO book (title,publisher_id,author_id) VALUES ('Zutécrotte et autres monstres... (le)', '249', '1163');
+
+/* Insert library branch in library branch table */ 
+INSERT INTO library_branch (name) VALUES ("Gombe");
+INSERT INTO library_branch (name) VALUES ("Masina");
+

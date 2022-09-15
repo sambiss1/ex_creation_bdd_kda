@@ -53,7 +53,7 @@ create table book_loans (
 
 
 
-// Insertion des auteurs dans la table author 
+/*Insertion des auteurs dans la table author  */
 
 INSERT INTO author (first_name,last_name) VALUES ('Bravi', 'Soledad');
 INSERT INTO author (first_name,last_name) VALUES ('Brière', 'Haquet Alice');
@@ -1222,314 +1222,313 @@ INSERT INTO author (first_name,last_name) VALUES ('Barbeau', 'Philippe');
 
 
 
-// Insertion des éditeurs ; 
+/* Insertion des éditeurs */
 
-INSERT INTO "publisher" ("first_name")
-VALUES
-    ('A pas de loups'),
-    ('A2MIMO'),
-    ('ABC Melody'),
-    ('ACCES'),
-    ('Actes Sud'),
-    ('Actes sud junior'),
-    ('Aedis'),
-    ('Albin Michel'),
-    ('Albin Michel jeunesse'),
-    ('Aldéran édition'),
-    ('Alice'),
-    ('Alice jeunesse'),
-    ('Alkindi'),
-    ('Almaterra'),
-    ('Alyssa'),
-    ('Amaterra'),
-    ('AND'),
-    ('ANLCI'),
-    ('Après la lune jeunesse'),
-    ('Assoc fr pour la lecture'),
-    ('Assoc. Paris-musées'),
-    ('Association Afflux'),
-    ('Atelier du poisson soluble'),
-    ('Atelier du poissson soluble'),
-    ('Atelier du Scribe'),
-    ('Auto production'),
-    ('Autrement'),
-    ('Autrement jeunesse'),
-    ('Balivernes'),
-    ('Balzane'),
-    ('Bayard'),
-    ('Bayard jeunesse'),
-    ('Belin'),
-    ('Belin jeunesse'),
-    ('Belize'),
-    ('Benoît Jacques'),
-    ('Benoît Jacques Books'),
-    ('bib.municip Paris'),
-    ('Bibliothèque de Toulouse'),
-    ('Bilboquet'),
-    ('Biscoto'),
-    ('BNF'),
-    ('Bruno Doucey'),
-    ('Bulles de savon'),
-    ('Cadex'),
-    ('Cahiers du CRILJ n° 10'),
-    ('Cahiers du CRILJ n° 3'),
-    ('Cahiers du CRILJ n° 4'),
-    ('Cahiers du CRILJ n° 5'),
-    ('Cahiers du CRILJ n° 7'),
-    ('Cahiers du CRILJ n°8'),
-    ('Calmann-Lévy'),
-    ('Cambourakis'),
-    ('Casterman'),
-    ('Castor benjamin'),
-    ('Castor poche'),
-    ('Catalpas'),
-    ('CCMDE'),
-    ('Centre Georges Pompidou'),
-    ('Cercle de la librairie'),
-    ('Chan-Ok'),
-    ('Cherche-midi'),
-    ('Cheyne'),
-    ('Cipango'),
-    ('Circé'),
-    ('Circonflexe'),
-    ('CLAP Midi-Pyrénées'),
-    ('Compagnie créative'),
-    ('Cornélius'),
-    ('Corps puce'),
-    ('Courtes et longues'),
-    ('Dapper'),
-    ('De facto'),
-    ('De la Martinière'),
-    ('De la Martinière jeunesse'),
-    ('Des Eléphants'),
-    ('Des Idées et des Hommes'),
-    ('Didier'),
-    ('Didier jeunesse'),
-    ('Dominique et cie'),
-    ('Donner à voir'),
-    ('Duculot Casterman'),
-    ('Ecole Centre Montauban'),
-    ('Ecole des loisirs'),
-    ('Ed Corps Puce'),
-    ('Ed Quart monde'),
-    ('Ed. des Elephants'),
-    ('Ed. des Elephants/Amnesty'),
-    ('Ed. du Jasmin'),
-    ('Edition des Monts'),
-    ('Editions de la Balle'),
-    ('Editions du Jasmin'),
-    ('Education Nationale'),
-    ('Elan vert'),
-    ('Encore une fois'),
-    ('ERES'),
-    ('Escabelle'),
-    ('Esperluète'),
-    ('Etre'),
-    ('Eyrolles'),
-    ('Flammarion'),
-    ('Flammarion jeunesse'),
-    ('FLBLB'),
-    ('Fleurus'),
-    ('Flies France'),
-    ('FOL de l\'Ardèche'),
-    ('Folio junior'),
-    ('Folle avoine'),
-    ('Fond. BNP'),
-    ('France Loisirs'),
-    ('Frimousse'),
-    ('GAEL'),
-    ('Galeri Minyatür'),
-    ('Gallimard'),
-    ('Gallimard jeunesse'),
-    ('Gautier-Languereau'),
-    ('Grandir'),
-    ('Grasset'),
-    ('Grasset jeunesse'),
-    ('Gros textes'),
-    ('Gründ'),
-    ('Gulf Stream'),
-    ('Hachette'),
-    ('Hachette jeunesse'),
-    ('Hatier'),
-    ('Hatier jeunesse'),
-    ('Hatier poche'),
-    ('Helium'),
-    ('Hélium'),
-    ('Hoëbeke'),
-    ('Hong Fei'),
-    ('Hongfei'),
-    ('Il était deux fois'),
-    ('Jean-Pierre Delarge'),
-    ('Kalandraka'),
-    ('Kate\'art'),
-    ('Kid Pocket'),
-    ('Kilowatt'),
-    ('Kimane'),
-    ('Krom Sakamapheap'),
-    ('L\'agrume'),
-    ('L\'art à la page'),
-    ('L\'Edune'),
-    ('L\'élan vert'),
-    ('L\'Harmattan'),
-    ('L\'Hydre'),
-    ('L\'idée bleue'),
-    ('L\'iroli'),
-    ('La Bagnole'),
-    ('La cabane sur le chien'),
-    ('La compagnie Créative'),
-    ('La Découverte poche'),
-    ('La joie de lire'),
-    ('La joie par les livres'),
-    ('La maison est en carton'),
-    ('La Martinière'),
-    ('La Palissade'),
-    ('La Pastèque'),
-    ('La Renarde rouge'),
-    ('La ville brûle'),
-    ('Larousse'),
-    ('Le baron perché'),
-    ('Le cherche midi'),
-    ('Le Dé bleu'),
-    ('Le Farfadet bleu'),
-    ('Le Genevrier'),
-    ('Le Griffon bleu'),
-    ('Le Jasmin'),
-    ('Le Pommier'),
-    ('Le port a jauni'),
-    ('Le Rocher'),
-    ('Le Sablier éditeur'),
-    ('Le Sorbier'),
-    ('Le Sorbier/Amnesty'),
-    ('Le Trou de nez'),
-    ('Le vengeur masqué'),
-    ('Les 400 coups'),
-    ('Les Arènes'),
-    ('Les Cahiers de la Charte'),
-    ('les éditions du mouton cerise'),
-    ('Les fourmis rouges'),
-    ('Les Grandes Personnes'),
-    ('Les Grands Personnes'),
-    ('Les p\'tits bérets'),
-    ('Les papareils'),
-    ('Lirabelle'),
-    ('Lirabelle/Amnesty'),
-    ('Lis avec moi'),
-    ('Lito'),
-    ('Little Urban'),
-    ('Lo Païs d\'Enfance'),
-    ('Magnard'),
-    ('Magnard jeunesse'),
-    ('Mango'),
-    ('Mango jeunesse'),
-    ('Margot'),
-    ('Marsam'),
-    ('MeMo'),
-    ('Mic-Mac'),
-    ('Michalon'),
-    ('Michel Lafon'),
-    ('Mijade'),
-    ('Mila'),
-    ('Mila éditions'),
-    ('Milan'),
-    ('Milan éducation'),
-    ('Milan jeunesse'),
-    ('Milan poche'),
-    ('Millefeuilles'),
-    ('Minedition'),
-    ('Mini Syros'),
-    ('Montreuil'),
-    ('MØtus'),
-    ('Mouton cerise'),
-    ('Naïve'),
-    ('Nathan'),
-    ('Nathan jeunesse'),
-    ('Nord-Sud'),
-    ('Notari'),
-    ('Nuinui'),
-    ('OQO éditions'),
-    ('Oskar'),
-    ('Oskar jeunesse'),
-    ('Où sont les enfants ?'),
-    ('P\'tit cairn'),
-    ('P\'tit Glénat'),
-    ('Palette'),
-    ('Paquet éditions'),
-    ('Paris Bibliothèques'),
-    ('Paris Musées'),
-    ('Pastel'),
-    ('PEMF'),
-    ('PEMF ados'),
-    ('Penguin books'),
-    ('Père Fouettard'),
-    ('Petit à petit'),
-    ('Picquier jeunesse'),
-    ('Pluie d\'étoiles'),
-    ('Pluie d’étoiles'),
-    ('Plume d\'Ocris'),
-    ('Plume de carotte'),
-    ('Poche'),
-    ('Pocket'),
-    ('Pocket jeunesse'),
-    ('Pocket junior'),
-    ('Pockett junior'),
-    ('Point de suspension'),
-    ('Points de Suspension'),
-    ('Poisson soluble'),
-    ('Pourquoi pas'),
-    ('Présence production'),
-    ('Privat'),
-    ('Publisud'),
-    ('Quart monde'),
-    ('Quatre fleuves'),
-    ('Québec'),
-    ('Rageot'),
-    ('Réciproques'),
-    ('Réunion des musées nationaux'),
-    ('Réunion musées nationaux'),
-    ('Rêves bleus'),
-    ('Ricochet'),
-    ('Rivages'),
-    ('Robert Laffont'),
-    ('Rocher'),
-    ('Rouegue'),
-    ('Rouergue'),
-    ('Rouge safran'),
-    ('Rue du monde'),
-    ('Ruisseaux d\'Afrique'),
-    ('Saltimbanque'),
-    ('Sarbacane'),
-    ('Sarbacane/Amnesty'),
-    ('SEDRAP'),
-    ('SEDRAP jeunesse'),
-    ('Seghers'),
-    ('Seghers jeune bilingue'),
-    ('Seuil'),
-    ('Seuil jeunesse'),
-    ('Soc et foc'),
-    ('Sorbier'),
-    ('Souchon-Garrigue Hélène'),
-    ('Stock'),
-    ('Syros'),
-    ('Syros Jeunesse'),
-    ('Syros/Amnesty'),
-    ('Table ronde'),
-    ('Talents hauts'),
-    ('Tapori'),
-    ('Thierry Magnier'),
-    ('Tourbillon'),
-    ('Touret'),
-    ('Usborne'),
-    ('Vents d\'ailleurs'),
-    ('Verdier'),
-    ('Versant Sud'),
-    ('Vigot'),
-    ('Vilo jeunesse'),
-    ('Vives voix'),
-    ('Walker Book'),
-    ('Yanbow al Kitab'),
-    ('Yomad'),
-    ('Zone J.'),
-    ('Zorba');
+INSERT INTO publisher (first_name) VALUES ('A pas de loups');
+INSERT INTO publisher (first_name) VALUES ('A2MIMO');
+INSERT INTO publisher (first_name) VALUES ('ABC Melody');
+INSERT INTO publisher (first_name) VALUES ('ACCES');
+INSERT INTO publisher (first_name) VALUES ('Actes Sud');
+INSERT INTO publisher (first_name) VALUES ('Actes sud junior');
+INSERT INTO publisher (first_name) VALUES ('Aedis');
+INSERT INTO publisher (first_name) VALUES ('Albin Michel');
+INSERT INTO publisher (first_name) VALUES ('Albin Michel jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Aldéran édition');
+INSERT INTO publisher (first_name) VALUES ('Alice');
+INSERT INTO publisher (first_name) VALUES ('Alice jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Alkindi');
+INSERT INTO publisher (first_name) VALUES ('Almaterra');
+INSERT INTO publisher (first_name) VALUES ('Alyssa');
+INSERT INTO publisher (first_name) VALUES ('Amaterra');
+INSERT INTO publisher (first_name) VALUES ('AND');
+INSERT INTO publisher (first_name) VALUES ('ANLCI');
+INSERT INTO publisher (first_name) VALUES ('Après la lune jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Assoc fr pour la lecture');
+INSERT INTO publisher (first_name) VALUES ('Assoc. Paris-musées');
+INSERT INTO publisher (first_name) VALUES ('Association Afflux');
+INSERT INTO publisher (first_name) VALUES ('Atelier du poisson soluble');
+INSERT INTO publisher (first_name) VALUES ('Atelier du poissson soluble');
+INSERT INTO publisher (first_name) VALUES ('Atelier du Scribe');
+INSERT INTO publisher (first_name) VALUES ('Auto production');
+INSERT INTO publisher (first_name) VALUES ('Autrement');
+INSERT INTO publisher (first_name) VALUES ('Autrement jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Balivernes');
+INSERT INTO publisher (first_name) VALUES ('Balzane');
+INSERT INTO publisher (first_name) VALUES ('Bayard');
+INSERT INTO publisher (first_name) VALUES ('Bayard jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Belin');
+INSERT INTO publisher (first_name) VALUES ('Belin jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Belize');
+INSERT INTO publisher (first_name) VALUES ('Benoît Jacques');
+INSERT INTO publisher (first_name) VALUES ('Benoît Jacques Books');
+INSERT INTO publisher (first_name) VALUES ('bib.municip Paris');
+INSERT INTO publisher (first_name) VALUES ('Bibliothèque de Toulouse');
+INSERT INTO publisher (first_name) VALUES ('Bilboquet');
+INSERT INTO publisher (first_name) VALUES ('Biscoto');
+INSERT INTO publisher (first_name) VALUES ('BNF');
+INSERT INTO publisher (first_name) VALUES ('Bruno Doucey');
+INSERT INTO publisher (first_name) VALUES ('Bulles de savon');
+INSERT INTO publisher (first_name) VALUES ('Cadex');
+INSERT INTO publisher (first_name) VALUES ('Cahiers du CRILJ n° 10');
+INSERT INTO publisher (first_name) VALUES ('Cahiers du CRILJ n° 3');
+INSERT INTO publisher (first_name) VALUES ('Cahiers du CRILJ n° 4');
+INSERT INTO publisher (first_name) VALUES ('Cahiers du CRILJ n° 5');
+INSERT INTO publisher (first_name) VALUES ('Cahiers du CRILJ n° 7');
+INSERT INTO publisher (first_name) VALUES ('Cahiers du CRILJ n°8');
+INSERT INTO publisher (first_name) VALUES ('Calmann-Lévy');
+INSERT INTO publisher (first_name) VALUES ('Cambourakis');
+INSERT INTO publisher (first_name) VALUES ('Casterman');
+INSERT INTO publisher (first_name) VALUES ('Castor benjamin');
+INSERT INTO publisher (first_name) VALUES ('Castor poche');
+INSERT INTO publisher (first_name) VALUES ('Catalpas');
+INSERT INTO publisher (first_name) VALUES ('CCMDE');
+INSERT INTO publisher (first_name) VALUES ('Centre Georges Pompidou');
+INSERT INTO publisher (first_name) VALUES ('Cercle de la librairie');
+INSERT INTO publisher (first_name) VALUES ('Chan-Ok');
+INSERT INTO publisher (first_name) VALUES ('Cherche-midi');
+INSERT INTO publisher (first_name) VALUES ('Cheyne');
+INSERT INTO publisher (first_name) VALUES ('Cipango');
+INSERT INTO publisher (first_name) VALUES ('Circé');
+INSERT INTO publisher (first_name) VALUES ('Circonflexe');
+INSERT INTO publisher (first_name) VALUES ('CLAP Midi-Pyrénées');
+INSERT INTO publisher (first_name) VALUES ('Compagnie créative');
+INSERT INTO publisher (first_name) VALUES ('Cornélius');
+INSERT INTO publisher (first_name) VALUES ('Corps puce');
+INSERT INTO publisher (first_name) VALUES ('Courtes et longues');
+INSERT INTO publisher (first_name) VALUES ('Dapper');
+INSERT INTO publisher (first_name) VALUES ('De facto');
+INSERT INTO publisher (first_name) VALUES ('De la Martinière');
+INSERT INTO publisher (first_name) VALUES ('De la Martinière jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Des Eléphants');
+INSERT INTO publisher (first_name) VALUES ('Des Idées et des Hommes');
+INSERT INTO publisher (first_name) VALUES ('Didier');
+INSERT INTO publisher (first_name) VALUES ('Didier jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Dominique et cie');
+INSERT INTO publisher (first_name) VALUES ('Donner à voir');
+INSERT INTO publisher (first_name) VALUES ('Duculot Casterman');
+INSERT INTO publisher (first_name) VALUES ('Ecole Centre Montauban');
+INSERT INTO publisher (first_name) VALUES ('Ecole des loisirs');
+INSERT INTO publisher (first_name) VALUES ('Ed Corps Puce');
+INSERT INTO publisher (first_name) VALUES ('Ed Quart monde');
+INSERT INTO publisher (first_name) VALUES ('Ed. des Elephants');
+INSERT INTO publisher (first_name) VALUES ('Ed. des Elephants/Amnesty');
+INSERT INTO publisher (first_name) VALUES ('Ed. du Jasmin');
+INSERT INTO publisher (first_name) VALUES ('Edition des Monts');
+INSERT INTO publisher (first_name) VALUES ('Editions de la Balle');
+INSERT INTO publisher (first_name) VALUES ('Editions du Jasmin');
+INSERT INTO publisher (first_name) VALUES ('Education Nationale');
+INSERT INTO publisher (first_name) VALUES ('Elan vert');
+INSERT INTO publisher (first_name) VALUES ('Encore une fois');
+INSERT INTO publisher (first_name) VALUES ('ERES');
+INSERT INTO publisher (first_name) VALUES ('Escabelle');
+INSERT INTO publisher (first_name) VALUES ('Esperluète');
+INSERT INTO publisher (first_name) VALUES ('Etre');
+INSERT INTO publisher (first_name) VALUES ('Eyrolles');
+INSERT INTO publisher (first_name) VALUES ('Flammarion');
+INSERT INTO publisher (first_name) VALUES ('Flammarion jeunesse');
+INSERT INTO publisher (first_name) VALUES ('FLBLB');
+INSERT INTO publisher (first_name) VALUES ('Fleurus');
+INSERT INTO publisher (first_name) VALUES ('Flies France');
+INSERT INTO publisher (first_name) VALUES ('FOL de l\'Ardèche');
+INSERT INTO publisher (first_name) VALUES ('Folio junior');
+INSERT INTO publisher (first_name) VALUES ('Folle avoine');
+INSERT INTO publisher (first_name) VALUES ('Fond. BNP');
+INSERT INTO publisher (first_name) VALUES ('France Loisirs');
+INSERT INTO publisher (first_name) VALUES ('Frimousse');
+INSERT INTO publisher (first_name) VALUES ('GAEL');
+INSERT INTO publisher (first_name) VALUES ('Galeri Minyatür');
+INSERT INTO publisher (first_name) VALUES ('Gallimard');
+INSERT INTO publisher (first_name) VALUES ('Gallimard jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Gautier-Languereau');
+INSERT INTO publisher (first_name) VALUES ('Grandir');
+INSERT INTO publisher (first_name) VALUES ('Grasset');
+INSERT INTO publisher (first_name) VALUES ('Grasset jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Gros textes');
+INSERT INTO publisher (first_name) VALUES ('Gründ');
+INSERT INTO publisher (first_name) VALUES ('Gulf Stream');
+INSERT INTO publisher (first_name) VALUES ('Hachette');
+INSERT INTO publisher (first_name) VALUES ('Hachette jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Hatier');
+INSERT INTO publisher (first_name) VALUES ('Hatier jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Hatier poche');
+INSERT INTO publisher (first_name) VALUES ('Helium');
+INSERT INTO publisher (first_name) VALUES ('Hélium');
+INSERT INTO publisher (first_name) VALUES ('Hoëbeke');
+INSERT INTO publisher (first_name) VALUES ('Hong Fei');
+INSERT INTO publisher (first_name) VALUES ('Hongfei');
+INSERT INTO publisher (first_name) VALUES ('Il était deux fois');
+INSERT INTO publisher (first_name) VALUES ('Jean-Pierre Delarge');
+INSERT INTO publisher (first_name) VALUES ('Kalandraka');
+INSERT INTO publisher (first_name) VALUES ('Kate\'art');
+INSERT INTO publisher (first_name) VALUES ('Kid Pocket');
+INSERT INTO publisher (first_name) VALUES ('Kilowatt');
+INSERT INTO publisher (first_name) VALUES ('Kimane');
+INSERT INTO publisher (first_name) VALUES ('Krom Sakamapheap');
+INSERT INTO publisher (first_name) VALUES ('L\'agrume');
+INSERT INTO publisher (first_name) VALUES ('L\'art à la page');
+INSERT INTO publisher (first_name) VALUES ('L\'Edune');
+INSERT INTO publisher (first_name) VALUES ('L\'élan vert');
+INSERT INTO publisher (first_name) VALUES ('L\'Harmattan');
+INSERT INTO publisher (first_name) VALUES ('L\'Hydre');
+INSERT INTO publisher (first_name) VALUES ('L\'idée bleue');
+INSERT INTO publisher (first_name) VALUES ('L\'iroli');
+INSERT INTO publisher (first_name) VALUES ('La Bagnole');
+INSERT INTO publisher (first_name) VALUES ('La cabane sur le chien');
+INSERT INTO publisher (first_name) VALUES ('La compagnie Créative');
+INSERT INTO publisher (first_name) VALUES ('La Découverte poche');
+INSERT INTO publisher (first_name) VALUES ('La joie de lire');
+INSERT INTO publisher (first_name) VALUES ('La joie par les livres');
+INSERT INTO publisher (first_name) VALUES ('La maison est en carton');
+INSERT INTO publisher (first_name) VALUES ('La Martinière');
+INSERT INTO publisher (first_name) VALUES ('La Palissade');
+INSERT INTO publisher (first_name) VALUES ('La Pastèque');
+INSERT INTO publisher (first_name) VALUES ('La Renarde rouge');
+INSERT INTO publisher (first_name) VALUES ('La ville brûle');
+INSERT INTO publisher (first_name) VALUES ('Larousse');
+INSERT INTO publisher (first_name) VALUES ('Le baron perché');
+INSERT INTO publisher (first_name) VALUES ('Le cherche midi');
+INSERT INTO publisher (first_name) VALUES ('Le Dé bleu');
+INSERT INTO publisher (first_name) VALUES ('Le Farfadet bleu');
+INSERT INTO publisher (first_name) VALUES ('Le Genevrier');
+INSERT INTO publisher (first_name) VALUES ('Le Griffon bleu');
+INSERT INTO publisher (first_name) VALUES ('Le Jasmin');
+INSERT INTO publisher (first_name) VALUES ('Le Pommier');
+INSERT INTO publisher (first_name) VALUES ('Le port a jauni');
+INSERT INTO publisher (first_name) VALUES ('Le Rocher');
+INSERT INTO publisher (first_name) VALUES ('Le Sablier éditeur');
+INSERT INTO publisher (first_name) VALUES ('Le Sorbier');
+INSERT INTO publisher (first_name) VALUES ('Le Sorbier/Amnesty');
+INSERT INTO publisher (first_name) VALUES ('Le Trou de nez');
+INSERT INTO publisher (first_name) VALUES ('Le vengeur masqué');
+INSERT INTO publisher (first_name) VALUES ('Les 400 coups');
+INSERT INTO publisher (first_name) VALUES ('Les Arènes');
+INSERT INTO publisher (first_name) VALUES ('Les Cahiers de la Charte');
+INSERT INTO publisher (first_name) VALUES ('les éditions du mouton cerise');
+INSERT INTO publisher (first_name) VALUES ('Les fourmis rouges');
+INSERT INTO publisher (first_name) VALUES ('Les Grandes Personnes');
+INSERT INTO publisher (first_name) VALUES ('Les Grands Personnes');
+INSERT INTO publisher (first_name) VALUES ('Les p\'tits bérets');
+INSERT INTO publisher (first_name) VALUES ('Les papareils');
+INSERT INTO publisher (first_name) VALUES ('Lirabelle');
+INSERT INTO publisher (first_name) VALUES ('Lirabelle/Amnesty');
+INSERT INTO publisher (first_name) VALUES ('Lis avec moi');
+INSERT INTO publisher (first_name) VALUES ('Lito');
+INSERT INTO publisher (first_name) VALUES ('Little Urban');
+INSERT INTO publisher (first_name) VALUES ('Lo Païs d\'Enfance');
+INSERT INTO publisher (first_name) VALUES ('Magnard');
+INSERT INTO publisher (first_name) VALUES ('Magnard jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Mango');
+INSERT INTO publisher (first_name) VALUES ('Mango jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Margot');
+INSERT INTO publisher (first_name) VALUES ('Marsam');
+INSERT INTO publisher (first_name) VALUES ('MeMo');
+INSERT INTO publisher (first_name) VALUES ('Mic-Mac');
+INSERT INTO publisher (first_name) VALUES ('Michalon');
+INSERT INTO publisher (first_name) VALUES ('Michel Lafon');
+INSERT INTO publisher (first_name) VALUES ('Mijade');
+INSERT INTO publisher (first_name) VALUES ('Mila');
+INSERT INTO publisher (first_name) VALUES ('Mila éditions');
+INSERT INTO publisher (first_name) VALUES ('Milan');
+INSERT INTO publisher (first_name) VALUES ('Milan éducation');
+INSERT INTO publisher (first_name) VALUES ('Milan jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Milan poche');
+INSERT INTO publisher (first_name) VALUES ('Millefeuilles');
+INSERT INTO publisher (first_name) VALUES ('Minedition');
+INSERT INTO publisher (first_name) VALUES ('Mini Syros');
+INSERT INTO publisher (first_name) VALUES ('Montreuil');
+INSERT INTO publisher (first_name) VALUES ('MØtus');
+INSERT INTO publisher (first_name) VALUES ('Mouton cerise');
+INSERT INTO publisher (first_name) VALUES ('Naïve');
+INSERT INTO publisher (first_name) VALUES ('Nathan');
+INSERT INTO publisher (first_name) VALUES ('Nathan jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Nord-Sud');
+INSERT INTO publisher (first_name) VALUES ('Notari');
+INSERT INTO publisher (first_name) VALUES ('Nuinui');
+INSERT INTO publisher (first_name) VALUES ('OQO éditions');
+INSERT INTO publisher (first_name) VALUES ('Oskar');
+INSERT INTO publisher (first_name) VALUES ('Oskar jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Où sont les enfants ?');
+INSERT INTO publisher (first_name) VALUES ('P\'tit cairn');
+INSERT INTO publisher (first_name) VALUES ('P\'tit Glénat');
+INSERT INTO publisher (first_name) VALUES ('Palette');
+INSERT INTO publisher (first_name) VALUES ('Paquet éditions');
+INSERT INTO publisher (first_name) VALUES ('Paris Bibliothèques');
+INSERT INTO publisher (first_name) VALUES ('Paris Musées');
+INSERT INTO publisher (first_name) VALUES ('Pastel');
+INSERT INTO publisher (first_name) VALUES ('PEMF');
+INSERT INTO publisher (first_name) VALUES ('PEMF ados');
+INSERT INTO publisher (first_name) VALUES ('Penguin books');
+INSERT INTO publisher (first_name) VALUES ('Père Fouettard');
+INSERT INTO publisher (first_name) VALUES ('Petit à petit');
+INSERT INTO publisher (first_name) VALUES ('Picquier jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Pluie d\'étoiles');
+INSERT INTO publisher (first_name) VALUES ('Pluie d’étoiles');
+INSERT INTO publisher (first_name) VALUES ('Plume d\'Ocris');
+INSERT INTO publisher (first_name) VALUES ('Plume de carotte');
+INSERT INTO publisher (first_name) VALUES ('Poche');
+INSERT INTO publisher (first_name) VALUES ('Pocket');
+INSERT INTO publisher (first_name) VALUES ('Pocket jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Pocket junior');
+INSERT INTO publisher (first_name) VALUES ('Pockett junior');
+INSERT INTO publisher (first_name) VALUES ('Point de suspension');
+INSERT INTO publisher (first_name) VALUES ('Points de Suspension');
+INSERT INTO publisher (first_name) VALUES ('Poisson soluble');
+INSERT INTO publisher (first_name) VALUES ('Pourquoi pas');
+INSERT INTO publisher (first_name) VALUES ('Présence production');
+INSERT INTO publisher (first_name) VALUES ('Privat');
+INSERT INTO publisher (first_name) VALUES ('Publisud');
+INSERT INTO publisher (first_name) VALUES ('Quart monde');
+INSERT INTO publisher (first_name) VALUES ('Quatre fleuves');
+INSERT INTO publisher (first_name) VALUES ('Québec');
+INSERT INTO publisher (first_name) VALUES ('Rageot');
+INSERT INTO publisher (first_name) VALUES ('Réciproques');
+INSERT INTO publisher (first_name) VALUES ('Réunion des musées nationaux');
+INSERT INTO publisher (first_name) VALUES ('Réunion musées nationaux');
+INSERT INTO publisher (first_name) VALUES ('Rêves bleus');
+INSERT INTO publisher (first_name) VALUES ('Ricochet');
+INSERT INTO publisher (first_name) VALUES ('Rivages');
+INSERT INTO publisher (first_name) VALUES ('Robert Laffont');
+INSERT INTO publisher (first_name) VALUES ('Rocher');
+INSERT INTO publisher (first_name) VALUES ('Rouegue');
+INSERT INTO publisher (first_name) VALUES ('Rouergue');
+INSERT INTO publisher (first_name) VALUES ('Rouge safran');
+INSERT INTO publisher (first_name) VALUES ('Rue du monde');
+INSERT INTO publisher (first_name) VALUES ('Ruisseaux d\'Afrique');
+INSERT INTO publisher (first_name) VALUES ('Saltimbanque');
+INSERT INTO publisher (first_name) VALUES ('Sarbacane');
+INSERT INTO publisher (first_name) VALUES ('Sarbacane/Amnesty');
+INSERT INTO publisher (first_name) VALUES ('SEDRAP');
+INSERT INTO publisher (first_name) VALUES ('SEDRAP jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Seghers');
+INSERT INTO publisher (first_name) VALUES ('Seghers jeune bilingue');
+INSERT INTO publisher (first_name) VALUES ('Seuil');
+INSERT INTO publisher (first_name) VALUES ('Seuil jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Soc et foc');
+INSERT INTO publisher (first_name) VALUES ('Sorbier');
+INSERT INTO publisher (first_name) VALUES ('Souchon-Garrigue Hélène');
+INSERT INTO publisher (first_name) VALUES ('Stock');
+INSERT INTO publisher (first_name) VALUES ('Syros');
+INSERT INTO publisher (first_name) VALUES ('Syros Jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Syros/Amnesty');
+INSERT INTO publisher (first_name) VALUES ('Table ronde');
+INSERT INTO publisher (first_name) VALUES ('Talents hauts');
+INSERT INTO publisher (first_name) VALUES ('Tapori');
+INSERT INTO publisher (first_name) VALUES ('Thierry Magnier');
+INSERT INTO publisher (first_name) VALUES ('Tourbillon');
+INSERT INTO publisher (first_name) VALUES ('Touret');
+INSERT INTO publisher (first_name) VALUES ('Usborne');
+INSERT INTO publisher (first_name) VALUES ('Vents d\'ailleurs');
+INSERT INTO publisher (first_name) VALUES ('Verdier');
+INSERT INTO publisher (first_name) VALUES ('Versant Sud');
+INSERT INTO publisher (first_name) VALUES ('Vigot');
+INSERT INTO publisher (first_name) VALUES ('Vilo jeunesse');
+INSERT INTO publisher (first_name) VALUES ('Vives voix');
+INSERT INTO publisher (first_name) VALUES ('Walker Book');
+INSERT INTO publisher (first_name) VALUES ('Yanbow al Kitab');
+INSERT INTO publisher (first_name) VALUES ('Yomad');
+INSERT INTO publisher (first_name) VALUES ('Zone J.');
+INSERT INTO publisher (first_name) VALUES ('Zorba');
+
 
 
 /* insertion des livres dans la table book ; */
